@@ -20,7 +20,7 @@ public class ArticlesDaoImpl extends DaoGenerics implements ArticlesDao {
          this.articlesAPI = articlesAPI;
     }
 
-    public Single<Either<String, List<Article>>> getAllArticles(){
+    public Either<String, List<Proyecto>> getAllArticles(){
         return safeAPICall(articlesAPI.getArticles());
     }
 

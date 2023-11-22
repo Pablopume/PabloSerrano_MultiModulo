@@ -5,5 +5,6 @@ module cliente{
     requires javafx.fxml;
     requires com.google.gson;
     requires domain;
+    requires io.vavr;
 
 }
